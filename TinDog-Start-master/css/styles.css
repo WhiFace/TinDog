@@ -1,0 +1,198 @@
+*{
+  paddding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, .cta-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h1{
+  font-size: 3.5rem;
+  color: #eeeeee;
+  margin-top: 20%;
+}
+
+
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+ .navbar{
+  padding: 0 0 4.5rem;
+ }
+
+ .navbar-brand{
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+
+ .nav-item{
+   padding: 0 18px;
+ }
+
+ .nav-link{
+   font-size: 1.2rem;
+ }
+ .col-lg-6{
+   padding: 0;
+ }
+
+/* Sections */
+#title{
+  position: relative;
+  z-index: 0;
+}
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+
+}
+
+.title-img{
+  width: 60%;
+  position: relative;
+  top: 200px;
+  left: 100px;
+  transform: rotate(25deg);
+  z-index: 0;
+}
+
+/****section color format***/
+
+.colored-section{
+  background-color: #ff4c68;
+
+}
+
+.white-section{
+  background-color: #eeeeee;
+  text-align: center;
+  position: relative;
+  padding: 7% 15%;
+  z-index: 1;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  text-align: center;
+}
+
+
+
+.features-desc{
+  margin-top: 5px;
+}
+.icons{
+  color: #efb172;
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+  text-align: center;
+  color: #eeeeee;
+}
+
+.testimonials-image{
+  border-radius: 100%;
+}
+
+.press-img, .testimonials-image{
+  width: 10%;
+  margin: 20px 20px 50px;
+
+}
+
+.pricing-col{
+  padding: 3% 2%
+}
+
+
+
+.cta-heading{
+  margin-bottom: 2%;
+  font-size: 3.5rem;
+  color: #eeeeee;
+}
+
+#cta{
+  text-align:center;
+  padding: 7% 15%;
+}
+#footer{
+  padding-top: 2%;
+  padding-bottom: 0px;
+}
+
+.footer-icons{
+  margin: 2% 1%;
+}
+
+.copyright{
+  margin-bottom: 0px;
+}
+/******** Media Queries **********/
+/* max-width: means that the midea is grater than 0 but less than the max-width
+   min-width: means tht the media is grater than or equals to the min-width*/
+@media (min-width:999px) {
+  h1{
+    font-size: 2.5rem;
+    margin-top: 50px;
+  }
+
+  #title{
+    text-align: left;
+  }
+  .title-img{
+    width: 60%;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    transform: rotate(25);
+    z-index: 0;
+
+  }
+}
+@media (max-width:999px) {
+  h1{
+
+    margin-top: 0px;
+  }
+
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    width: 60%;
+    position: relative;
+    top: 100px;
+    left: 0px;
+    transform: rotate(0);
+    z-index: 0;
+
+  }
+
+  .cta-heading{
+    font-size: 2.5rem;
+  }
+}
